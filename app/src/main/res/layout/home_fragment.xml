@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".home_back.HomeFragment">
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/struggle"
+        tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:text="忘掉今天的人将被明天忘掉"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:textSize="50sp"
+
+            />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        android:text="每日检查"
+        />
+
+    <Button
+        android:id="@+id/btn_clk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_gravity="center_horizontal"
+        android:text="开始计时"
+        />
+
+    <Button
+        android:id="@+id/changebg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_gravity="center_horizontal"
+        android:text="修改背景"
+        />
+
+
+
+</FrameLayout>
